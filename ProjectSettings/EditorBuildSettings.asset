@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/BubblePopper.unity
+    guid: 1203969e8d6f43d479ca90fd4cb10589
+  - enabled: 1
+    path: Assets/Scenes/Painting.unity
+    guid: 74343211ca4dd494ea4ed70f10be1a6b
+  - enabled: 1
+    path: Assets/Scenes/Scores.unity
+    guid: 07704f90908bc9d478432572187baa0e
   m_configObjects: {}
