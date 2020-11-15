@@ -216,7 +216,7 @@ Transform:
   m_LocalScale: {x: 0.3, y: 0.7499998, z: 2}
   m_Children: []
   m_Father: {fileID: 1624554985}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &213815324
 GameObject:
@@ -482,8 +482,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342879533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0000038146973}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000002}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -581,7 +581,7 @@ Transform:
   m_LocalScale: {x: 0.3, y: 0.7499998, z: 2}
   m_Children: []
   m_Father: {fileID: 1624554985}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1624554981
 GameObject:
@@ -595,6 +595,7 @@ GameObject:
   - component: {fileID: 1624554984}
   - component: {fileID: 1624554983}
   - component: {fileID: 1624554982}
+  - component: {fileID: 1624554986}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -673,16 +674,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624554981}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: -0, z: 30}
+  m_LocalPosition: {x: 14, y: -0, z: 30}
   m_LocalScale: {x: 10, y: 1, z: 4}
   m_Children:
   - {fileID: 213815328}
-  - {fileID: 40134216}
-  - {fileID: 1869795235}
   - {fileID: 1602986285}
+  - {fileID: 1869795235}
+  - {fileID: 40134216}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
+--- !u!114 &1624554986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624554981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7fe8f0d74f49b469f07af5317f2c55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToinstantiate: {fileID: 8407311396668838266, guid: de4644a4edeb6344bba1db72f333a437, type: 3}
+  waitTime: 0.1
 --- !u!1 &1869795231
 GameObject:
   m_ObjectHideFlags: 0
